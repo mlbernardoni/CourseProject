@@ -1,3 +1,17 @@
 # CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+Topic: Reproducing a Paper: Mining causal topics in text data: Iterative topic modeling with time series feedback.
+Team:		PYM
+First		Last		email
+Pallavi 		Ravada		pravada2@illinois.edu
+Yash 		Skhwani		yashas2@illinois.edu
+Michael		Bernardoni	mlb12@illinois.edu
+
+Captain:	
+Michael		Bernardoni	mlb12@illinois.edu
+
+GitHub fork link: https://github.com/mlbernardoni/CourseProject 
+
+Files:
+Proposal		Team Project Proposal.pdf
+
