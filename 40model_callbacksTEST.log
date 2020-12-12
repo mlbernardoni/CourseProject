@@ -1,0 +1,352 @@
+2020-12-03 09:55:42,411:DEBUG:Start of model: 
+2020-12-03 09:55:42,412:INFO:using autotuned alpha, starting with [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+2020-12-03 09:55:42,415:INFO:using serial LDA version on this node
+2020-12-03 09:55:42,518:INFO:running online (multi-pass) LDA training, 40 topics, 10 passes over the supplied corpus of 2673 documents, updating model once every 2673 documents, evaluating perplexity every 2673 documents, iterating 100x with a convergence threshold of 0.001000
+2020-12-03 09:55:42,611:DEBUG:bound: at document #0
+2020-12-03 09:55:59,359:INFO:-13.031 per-word bound, 8370.5 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:55:59,359:INFO:PROGRESS: pass 0, at document #2673/2673
+2020-12-03 09:55:59,359:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:56:13,181:DEBUG:1181/2673 documents converged within 100 iterations
+2020-12-03 09:56:13,219:INFO:optimized alpha [0.023838025, 0.02399991, 0.022592928, 0.02353833, 0.023195729, 0.022405399, 0.024630114, 0.024956593, 0.023209922, 0.025417006, 0.023873333, 0.02323209, 0.024816023, 0.023253245, 0.022818662, 0.02223874, 0.022520494, 0.024582688, 0.022542607, 0.025070976, 0.022517538, 0.023095513, 0.025628507, 0.022925528, 0.026980974, 0.024752568, 0.022859663, 0.023087362, 0.025657985, 0.024130246, 0.022891857, 0.02469726, 0.02709473, 0.023333838, 0.023198437, 0.02439598, 0.027492538, 0.025202703, 0.022552557, 0.02287281]
+2020-12-03 09:56:13,220:DEBUG:updating topics
+2020-12-03 09:56:13,312:INFO:topic #15 (0.022): 0.014*"bush" + 0.012*"gore" + 0.010*"al" + 0.007*"gores" + 0.006*"article" + 0.005*"campaign" + 0.005*"george" + 0.004*"president" + 0.004*"vice" + 0.004*"gov"
+2020-12-03 09:56:13,313:INFO:topic #5 (0.022): 0.024*"bush" + 0.012*"gore" + 0.010*"president" + 0.010*"george" + 0.009*"al" + 0.009*"oil" + 0.006*"republican" + 0.006*"vice" + 0.006*"texas" + 0.005*"administration"
+2020-12-03 09:56:13,313:INFO:topic #24 (0.027): 0.044*"gore" + 0.017*"bush" + 0.013*"president" + 0.012*"gores" + 0.010*"al" + 0.009*"campaign" + 0.008*"vice" + 0.006*"bushs" + 0.005*"george" + 0.005*"clinton"
+2020-12-03 09:56:13,313:INFO:topic #32 (0.027): 0.032*"gore" + 0.030*"bush" + 0.012*"campaign" + 0.010*"president" + 0.008*"bushs" + 0.006*"gores" + 0.006*"voters" + 0.006*"vice" + 0.006*"al" + 0.006*"people"
+2020-12-03 09:56:13,314:INFO:topic #36 (0.027): 0.041*"gore" + 0.024*"bush" + 0.015*"president" + 0.009*"al" + 0.009*"vice" + 0.008*"george" + 0.008*"campaign" + 0.006*"plan" + 0.006*"gores" + 0.005*"oil"
+2020-12-03 09:56:13,318:INFO:topic diff=19.094322, rho=1.000000
+2020-12-03 09:56:13,483:DEBUG:bound: at document #0
+2020-12-03 09:56:25,960:INFO:-8.831 per-word bound, 455.5 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:56:25,960:INFO:PROGRESS: pass 1, at document #2673/2673
+2020-12-03 09:56:25,960:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:56:35,322:DEBUG:2376/2673 documents converged within 100 iterations
+2020-12-03 09:56:35,365:INFO:optimized alpha [0.021942941, 0.021910958, 0.020484868, 0.022640012, 0.021069154, 0.020268641, 0.02273669, 0.024123408, 0.021185827, 0.024216006, 0.021781962, 0.021188298, 0.023293316, 0.021150544, 0.020793878, 0.020078441, 0.020275025, 0.022528544, 0.020361705, 0.023578024, 0.02022944, 0.021050066, 0.024840977, 0.020856868, 0.027109351, 0.022921013, 0.020587858, 0.021189103, 0.024810746, 0.022135176, 0.020667158, 0.023157842, 0.027164869, 0.021220993, 0.021232914, 0.022897841, 0.028030118, 0.02370599, 0.020481538, 0.020774154]
+2020-12-03 09:56:35,366:DEBUG:updating topics
+2020-12-03 09:56:35,475:INFO:topic #15 (0.020): 0.015*"article" + 0.011*"al" + 0.011*"misspelled" + 0.011*"gores" + 0.010*"gore" + 0.009*"bush" + 0.009*"copies" + 0.008*"platform" + 0.007*"surname" + 0.006*"oz"
+2020-12-03 09:56:35,476:INFO:topic #20 (0.020): 0.022*"bush" + 0.011*"gore" + 0.009*"president" + 0.008*"george" + 0.007*"gov" + 0.006*"texas" + 0.006*"family" + 0.005*"vice" + 0.004*"environmental" + 0.004*"national"
+2020-12-03 09:56:35,476:INFO:topic #24 (0.027): 0.047*"gore" + 0.012*"gores" + 0.012*"bush" + 0.012*"president" + 0.009*"al" + 0.009*"campaign" + 0.008*"vice" + 0.006*"clinton" + 0.005*"bushs" + 0.005*"people"
+2020-12-03 09:56:35,477:INFO:topic #32 (0.027): 0.033*"bush" + 0.029*"gore" + 0.012*"campaign" + 0.009*"bushs" + 0.009*"president" + 0.007*"gores" + 0.006*"voters" + 0.006*"people" + 0.006*"vice" + 0.006*"republican"
+2020-12-03 09:56:35,477:INFO:topic #36 (0.028): 0.042*"gore" + 0.023*"bush" + 0.015*"president" + 0.010*"vice" + 0.009*"al" + 0.008*"oil" + 0.008*"campaign" + 0.007*"george" + 0.006*"gores" + 0.006*"plan"
+2020-12-03 09:56:35,481:INFO:topic diff=7.182935, rho=0.946551
+2020-12-03 09:56:35,660:DEBUG:bound: at document #0
+2020-12-03 09:56:46,973:INFO:-8.356 per-word bound, 327.7 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:56:46,973:INFO:PROGRESS: pass 2, at document #2673/2673
+2020-12-03 09:56:46,973:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:56:55,135:DEBUG:2541/2673 documents converged within 100 iterations
+2020-12-03 09:56:55,194:INFO:optimized alpha [0.020506106, 0.020310594, 0.018890692, 0.023039017, 0.019402878, 0.018610807, 0.02140592, 0.02407982, 0.019615587, 0.02318497, 0.020179156, 0.019816523, 0.022042967, 0.01950152, 0.019268736, 0.018411756, 0.018594224, 0.020868754, 0.018672552, 0.022350088, 0.018428808, 0.019480761, 0.024565207, 0.019284073, 0.027278822, 0.02142765, 0.018819561, 0.020369362, 0.023974905, 0.020605654, 0.018953659, 0.022049148, 0.02718364, 0.019548425, 0.019981002, 0.022141332, 0.028446294, 0.022537775, 0.018977433, 0.019182244]
+2020-12-03 09:56:55,194:DEBUG:updating topics
+2020-12-03 09:56:55,316:INFO:topic #15 (0.018): 0.022*"article" + 0.013*"gores" + 0.012*"al" + 0.012*"misspelled" + 0.011*"copies" + 0.011*"gore" + 0.009*"platform" + 0.008*"surname" + 0.008*"bush" + 0.007*"frontpage"
+2020-12-03 09:56:55,317:INFO:topic #20 (0.018): 0.022*"bush" + 0.008*"gore" + 0.008*"family" + 0.008*"president" + 0.007*"gov" + 0.007*"george" + 0.006*"texas" + 0.005*"families" + 0.004*"convention" + 0.004*"st"
+2020-12-03 09:56:55,317:INFO:topic #32 (0.027): 0.035*"bush" + 0.029*"gore" + 0.013*"campaign" + 0.009*"bushs" + 0.008*"president" + 0.007*"gores" + 0.007*"voters" + 0.006*"people" + 0.006*"vice" + 0.006*"republican"
+2020-12-03 09:56:55,317:INFO:topic #24 (0.027): 0.049*"gore" + 0.013*"gores" + 0.012*"president" + 0.010*"bush" + 0.010*"al" + 0.008*"campaign" + 0.008*"vice" + 0.007*"clinton" + 0.004*"people" + 0.004*"own"
+2020-12-03 09:56:55,318:INFO:topic #36 (0.028): 0.045*"gore" + 0.023*"bush" + 0.015*"president" + 0.011*"vice" + 0.010*"al" + 0.010*"oil" + 0.008*"campaign" + 0.007*"george" + 0.006*"gores" + 0.005*"plan"
+2020-12-03 09:56:55,321:INFO:topic diff=3.791780, rho=0.933033
+2020-12-03 09:56:55,475:DEBUG:bound: at document #0
+2020-12-03 09:57:06,709:INFO:-8.254 per-word bound, 305.3 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:57:06,709:INFO:PROGRESS: pass 3, at document #2673/2673
+2020-12-03 09:57:06,709:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:57:15,050:DEBUG:2598/2673 documents converged within 100 iterations
+2020-12-03 09:57:15,108:INFO:optimized alpha [0.019323722, 0.019056099, 0.01758879, 0.024112856, 0.018053867, 0.017315634, 0.020367412, 0.024473604, 0.01836677, 0.022232728, 0.018878197, 0.018998405, 0.021068472, 0.01817946, 0.018059451, 0.017089361, 0.017316129, 0.019500406, 0.01732007, 0.021415101, 0.016974302, 0.018288936, 0.024748985, 0.018060217, 0.02766675, 0.020247212, 0.017435845, 0.020119313, 0.02320307, 0.019390233, 0.017577184, 0.021258382, 0.02726022, 0.018207893, 0.019419733, 0.021795433, 0.028937047, 0.021741169, 0.01786767, 0.017923824]
+2020-12-03 09:57:15,108:DEBUG:updating topics
+2020-12-03 09:57:15,244:INFO:topic #20 (0.017): 0.022*"bush" + 0.009*"family" + 0.007*"gov" + 0.007*"george" + 0.006*"gore" + 0.006*"president" + 0.006*"texas" + 0.005*"families" + 0.005*"st" + 0.005*"avenue"
+2020-12-03 09:57:15,244:INFO:topic #15 (0.017): 0.029*"article" + 0.013*"gores" + 0.013*"al" + 0.012*"copies" + 0.012*"misspelled" + 0.011*"gore" + 0.010*"frontpage" + 0.010*"platform" + 0.009*"surname" + 0.007*"bush"
+2020-12-03 09:57:15,245:INFO:topic #32 (0.027): 0.036*"bush" + 0.029*"gore" + 0.014*"campaign" + 0.009*"bushs" + 0.008*"president" + 0.008*"gores" + 0.008*"voters" + 0.007*"people" + 0.006*"republican" + 0.006*"vice"
+2020-12-03 09:57:15,245:INFO:topic #24 (0.028): 0.050*"gore" + 0.013*"gores" + 0.012*"president" + 0.010*"al" + 0.008*"campaign" + 0.008*"bush" + 0.008*"vice" + 0.007*"clinton" + 0.004*"people" + 0.004*"own"
+2020-12-03 09:57:15,245:INFO:topic #36 (0.029): 0.047*"gore" + 0.022*"bush" + 0.016*"president" + 0.012*"vice" + 0.011*"oil" + 0.010*"al" + 0.008*"campaign" + 0.007*"george" + 0.007*"gores" + 0.005*"gov"
+2020-12-03 09:57:15,249:INFO:topic diff=1.444143, rho=0.922681
+2020-12-03 09:57:15,410:DEBUG:bound: at document #0
+2020-12-03 09:57:26,403:INFO:-8.202 per-word bound, 294.4 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:57:26,404:INFO:PROGRESS: pass 4, at document #2673/2673
+2020-12-03 09:57:26,404:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:57:34,268:DEBUG:2606/2673 documents converged within 100 iterations
+2020-12-03 09:57:34,336:INFO:optimized alpha [0.01833404, 0.018031754, 0.016487531, 0.025458701, 0.0169532, 0.016244927, 0.019524122, 0.025056612, 0.017377589, 0.021458998, 0.017797006, 0.018551918, 0.02025384, 0.017106744, 0.01707445, 0.016020525, 0.016474012, 0.018350858, 0.016216768, 0.020645626, 0.015786525, 0.017402504, 0.025149595, 0.017133098, 0.02824842, 0.019354928, 0.016315201, 0.020210963, 0.022596601, 0.01845888, 0.01644981, 0.02062463, 0.027507924, 0.017095178, 0.019400964, 0.02182303, 0.029488645, 0.021292169, 0.01709985, 0.016894033]
+2020-12-03 09:57:34,337:DEBUG:updating topics
+2020-12-03 09:57:34,475:INFO:topic #20 (0.016): 0.023*"bush" + 0.010*"family" + 0.007*"avenue" + 0.007*"gov" + 0.007*"george" + 0.006*"texas" + 0.006*"families" + 0.006*"pm" + 0.005*"st" + 0.005*"president"
+2020-12-03 09:57:34,476:INFO:topic #15 (0.016): 0.034*"article" + 0.014*"al" + 0.014*"gores" + 0.012*"frontpage" + 0.012*"copies" + 0.011*"misspelled" + 0.011*"platform" + 0.011*"gore" + 0.009*"surname" + 0.008*"books"
+2020-12-03 09:57:34,476:INFO:topic #32 (0.028): 0.037*"bush" + 0.030*"gore" + 0.014*"campaign" + 0.010*"bushs" + 0.008*"voters" + 0.008*"president" + 0.008*"gores" + 0.007*"people" + 0.006*"republican" + 0.006*"vice"
+2020-12-03 09:57:34,477:INFO:topic #24 (0.028): 0.051*"gore" + 0.013*"gores" + 0.012*"president" + 0.010*"al" + 0.008*"campaign" + 0.008*"vice" + 0.008*"clinton" + 0.006*"bush" + 0.005*"own" + 0.005*"people"
+2020-12-03 09:57:34,477:INFO:topic #36 (0.029): 0.048*"gore" + 0.022*"bush" + 0.016*"president" + 0.012*"vice" + 0.012*"oil" + 0.011*"al" + 0.008*"campaign" + 0.006*"gores" + 0.006*"george" + 0.005*"clinton"
+2020-12-03 09:57:34,480:INFO:topic diff=0.721030, rho=0.914308
+2020-12-03 09:57:34,641:DEBUG:bound: at document #0
+2020-12-03 09:57:45,883:INFO:-8.166 per-word bound, 287.3 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:57:45,883:INFO:PROGRESS: pass 5, at document #2673/2673
+2020-12-03 09:57:45,883:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:57:53,602:DEBUG:2626/2673 documents converged within 100 iterations
+2020-12-03 09:57:53,662:INFO:optimized alpha [0.017507855, 0.017183386, 0.015574206, 0.027032325, 0.016016832, 0.015395699, 0.018805174, 0.025716873, 0.016567895, 0.02079766, 0.016865445, 0.018304417, 0.019594057, 0.016205175, 0.016243543, 0.015132769, 0.015893023, 0.017356854, 0.015324102, 0.020018134, 0.014787937, 0.016719986, 0.025720453, 0.016420998, 0.028884908, 0.018637193, 0.01539231, 0.020524714, 0.022077354, 0.017707229, 0.015522151, 0.020115813, 0.027881807, 0.016167942, 0.019793883, 0.022072796, 0.030055705, 0.021097446, 0.016578726, 0.016061885]
+2020-12-03 09:57:53,662:DEBUG:updating topics
+2020-12-03 09:57:53,799:INFO:topic #20 (0.015): 0.023*"bush" + 0.010*"family" + 0.008*"avenue" + 0.007*"gov" + 0.006*"pm" + 0.006*"george" + 0.006*"families" + 0.006*"st" + 0.005*"beloved" + 0.005*"texas"
+2020-12-03 09:57:53,800:INFO:topic #15 (0.015): 0.037*"article" + 0.015*"frontpage" + 0.014*"al" + 0.014*"gores" + 0.012*"copies" + 0.012*"platform" + 0.011*"misspelled" + 0.010*"gore" + 0.008*"surname" + 0.008*"books"
+2020-12-03 09:57:53,800:INFO:topic #32 (0.028): 0.038*"bush" + 0.030*"gore" + 0.015*"campaign" + 0.010*"bushs" + 0.009*"voters" + 0.008*"gores" + 0.008*"president" + 0.007*"people" + 0.006*"republican" + 0.006*"vice"
+2020-12-03 09:57:53,801:INFO:topic #24 (0.029): 0.052*"gore" + 0.014*"gores" + 0.012*"president" + 0.010*"al" + 0.008*"clinton" + 0.008*"campaign" + 0.008*"vice" + 0.005*"bush" + 0.005*"time" + 0.005*"own"
+2020-12-03 09:57:53,801:INFO:topic #36 (0.030): 0.050*"gore" + 0.021*"bush" + 0.017*"president" + 0.013*"oil" + 0.012*"vice" + 0.011*"al" + 0.008*"campaign" + 0.006*"gores" + 0.006*"george" + 0.005*"prices"
+2020-12-03 09:57:53,804:INFO:topic diff=0.462260, rho=0.907288
+2020-12-03 09:57:53,958:DEBUG:bound: at document #0
+2020-12-03 09:58:04,758:INFO:-8.140 per-word bound, 282.1 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:58:04,758:INFO:PROGRESS: pass 6, at document #2673/2673
+2020-12-03 09:58:04,758:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:58:12,335:DEBUG:2623/2673 documents converged within 100 iterations
+2020-12-03 09:58:12,394:INFO:optimized alpha [0.01682715, 0.016501376, 0.014790219, 0.0287477, 0.015214042, 0.014679908, 0.01819068, 0.02642781, 0.015898123, 0.020204062, 0.016090894, 0.018254614, 0.019036915, 0.015436514, 0.015521597, 0.014405139, 0.015523253, 0.01651444, 0.014577589, 0.019539056, 0.013929713, 0.016197937, 0.026409876, 0.015876697, 0.029654305, 0.018128626, 0.014626851, 0.020983301, 0.021672726, 0.01712088, 0.014785371, 0.019707633, 0.028393744, 0.015378482, 0.020498903, 0.022450784, 0.030605823, 0.02112385, 0.016198363, 0.015372556]
+2020-12-03 09:58:12,394:DEBUG:updating topics
+2020-12-03 09:58:12,522:INFO:topic #20 (0.014): 0.022*"bush" + 0.010*"family" + 0.009*"avenue" + 0.007*"pm" + 0.006*"gov" + 0.006*"st" + 0.006*"george" + 0.006*"families" + 0.005*"beloved" + 0.005*"texas"
+2020-12-03 09:58:12,522:INFO:topic #15 (0.014): 0.042*"article" + 0.016*"frontpage" + 0.015*"al" + 0.014*"gores" + 0.013*"copies" + 0.012*"platform" + 0.011*"misspelled" + 0.010*"gore" + 0.009*"editing" + 0.008*"surname"
+2020-12-03 09:58:12,523:INFO:topic #3 (0.029): 0.050*"tax" + 0.026*"bush" + 0.022*"plan" + 0.022*"gore" + 0.016*"cut" + 0.014*"cuts" + 0.014*"bushs" + 0.014*"social" + 0.012*"security" + 0.011*"surplus"
+2020-12-03 09:58:12,523:INFO:topic #24 (0.030): 0.053*"gore" + 0.014*"gores" + 0.012*"president" + 0.010*"al" + 0.008*"clinton" + 0.008*"vice" + 0.008*"campaign" + 0.005*"time" + 0.005*"own" + 0.005*"people"
+2020-12-03 09:58:12,523:INFO:topic #36 (0.031): 0.050*"gore" + 0.021*"bush" + 0.017*"president" + 0.013*"oil" + 0.013*"vice" + 0.011*"al" + 0.008*"campaign" + 0.006*"george" + 0.006*"gores" + 0.005*"prices"
+2020-12-03 09:58:12,527:INFO:topic diff=0.341686, rho=0.901250
+2020-12-03 09:58:12,679:DEBUG:bound: at document #0
+2020-12-03 09:58:23,359:INFO:-8.120 per-word bound, 278.1 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:58:23,359:INFO:PROGRESS: pass 7, at document #2673/2673
+2020-12-03 09:58:23,359:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:58:31,340:DEBUG:2621/2673 documents converged within 100 iterations
+2020-12-03 09:58:31,386:INFO:optimized alpha [0.016255114, 0.01597281, 0.014102211, 0.030575631, 0.014515832, 0.014098979, 0.017684132, 0.027172359, 0.015322402, 0.019670561, 0.0154448515, 0.018288348, 0.018541502, 0.014782422, 0.0149120735, 0.013783543, 0.015311337, 0.015778694, 0.0139257945, 0.019178962, 0.013190182, 0.015787665, 0.027264165, 0.015450625, 0.030481143, 0.017757088, 0.013954486, 0.021591906, 0.021339346, 0.016684026, 0.014177263, 0.019422786, 0.028944038, 0.01470215, 0.021512672, 0.022880899, 0.03115965, 0.021327956, 0.015954636, 0.014763387]
+2020-12-03 09:58:31,386:DEBUG:updating topics
+2020-12-03 09:58:31,507:INFO:topic #20 (0.013): 0.022*"bush" + 0.010*"family" + 0.009*"avenue" + 0.007*"pm" + 0.007*"st" + 0.006*"gov" + 0.006*"families" + 0.006*"george" + 0.006*"beloved" + 0.005*"park"
+2020-12-03 09:58:31,507:INFO:topic #15 (0.014): 0.047*"article" + 0.017*"frontpage" + 0.015*"al" + 0.015*"copies" + 0.014*"gores" + 0.012*"platform" + 0.011*"misspelled" + 0.010*"gore" + 0.010*"editing" + 0.008*"surname"
+2020-12-03 09:58:31,507:INFO:topic #24 (0.030): 0.054*"gore" + 0.014*"gores" + 0.011*"president" + 0.010*"al" + 0.008*"clinton" + 0.007*"vice" + 0.007*"campaign" + 0.005*"time" + 0.005*"own" + 0.005*"people"
+2020-12-03 09:58:31,508:INFO:topic #3 (0.031): 0.049*"tax" + 0.026*"bush" + 0.022*"plan" + 0.022*"gore" + 0.016*"cut" + 0.015*"social" + 0.014*"cuts" + 0.014*"bushs" + 0.013*"security" + 0.011*"surplus"
+2020-12-03 09:58:31,508:INFO:topic #36 (0.031): 0.051*"gore" + 0.020*"bush" + 0.017*"president" + 0.013*"oil" + 0.013*"vice" + 0.011*"al" + 0.008*"campaign" + 0.006*"george" + 0.006*"gores" + 0.005*"prices"
+2020-12-03 09:58:31,511:INFO:topic diff=0.273843, rho=0.895958
+2020-12-03 09:58:31,674:DEBUG:bound: at document #0
+2020-12-03 09:58:42,241:INFO:-8.104 per-word bound, 275.1 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:58:42,241:INFO:PROGRESS: pass 8, at document #2673/2673
+2020-12-03 09:58:42,241:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:58:49,717:DEBUG:2631/2673 documents converged within 100 iterations
+2020-12-03 09:58:49,774:INFO:optimized alpha [0.015802614, 0.015490844, 0.013508649, 0.032419194, 0.013899671, 0.013610518, 0.017263735, 0.027868625, 0.01481539, 0.019190958, 0.01490539, 0.018429445, 0.018138934, 0.014223339, 0.014401425, 0.013259405, 0.015243394, 0.01512132, 0.01337194, 0.018863155, 0.012543581, 0.015478406, 0.028214345, 0.015140958, 0.031367976, 0.017528243, 0.013392668, 0.022290193, 0.02105435, 0.01639095, 0.013665836, 0.01917981, 0.029512856, 0.014139436, 0.022662686, 0.023355285, 0.031692233, 0.02168708, 0.015776452, 0.014247351]
+2020-12-03 09:58:49,774:DEBUG:updating topics
+2020-12-03 09:58:49,882:INFO:topic #20 (0.013): 0.022*"bush" + 0.010*"family" + 0.009*"avenue" + 0.008*"st" + 0.007*"pm" + 0.006*"gov" + 0.006*"families" + 0.006*"beloved" + 0.005*"park" + 0.005*"george"
+2020-12-03 09:58:49,882:INFO:topic #15 (0.013): 0.051*"article" + 0.017*"frontpage" + 0.015*"copies" + 0.015*"al" + 0.014*"gores" + 0.012*"platform" + 0.011*"misspelled" + 0.010*"editing" + 0.010*"gore" + 0.009*"error"
+2020-12-03 09:58:49,883:INFO:topic #24 (0.031): 0.054*"gore" + 0.014*"gores" + 0.011*"president" + 0.010*"al" + 0.008*"clinton" + 0.007*"vice" + 0.007*"campaign" + 0.005*"time" + 0.005*"own" + 0.005*"people"
+2020-12-03 09:58:49,883:INFO:topic #36 (0.032): 0.051*"gore" + 0.020*"bush" + 0.018*"president" + 0.013*"oil" + 0.013*"vice" + 0.011*"al" + 0.008*"campaign" + 0.006*"george" + 0.006*"gores" + 0.005*"prices"
+2020-12-03 09:58:49,883:INFO:topic #3 (0.032): 0.049*"tax" + 0.026*"bush" + 0.022*"gore" + 0.022*"plan" + 0.016*"cut" + 0.015*"social" + 0.014*"cuts" + 0.014*"bushs" + 0.014*"security" + 0.011*"surplus"
+2020-12-03 09:58:49,886:INFO:topic diff=0.229270, rho=0.891251
+2020-12-03 09:58:50,078:DEBUG:bound: at document #0
+2020-12-03 09:59:00,464:INFO:-8.090 per-word bound, 272.5 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 09:59:00,464:INFO:PROGRESS: pass 9, at document #2673/2673
+2020-12-03 09:59:00,465:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 09:59:07,647:DEBUG:2650/2673 documents converged within 100 iterations
+2020-12-03 09:59:07,704:INFO:optimized alpha [0.015424518, 0.01508094, 0.012989696, 0.034216985, 0.013343143, 0.013190758, 0.016899638, 0.028491883, 0.014357292, 0.01875876, 0.014434946, 0.018615898, 0.017821971, 0.013744155, 0.013974193, 0.01281714, 0.015248589, 0.014565917, 0.012900104, 0.018599197, 0.011974344, 0.015251774, 0.029211374, 0.014937097, 0.03229472, 0.017364409, 0.012896219, 0.023054669, 0.020820558, 0.01625628, 0.013208481, 0.018981261, 0.030186238, 0.013657291, 0.023934906, 0.023826605, 0.032210477, 0.022087771, 0.015689323, 0.013814953]
+2020-12-03 09:59:07,705:DEBUG:updating topics
+2020-12-03 09:59:07,819:INFO:topic #20 (0.012): 0.021*"bush" + 0.010*"family" + 0.009*"avenue" + 0.008*"st" + 0.007*"pm" + 0.006*"families" + 0.006*"park" + 0.006*"gov" + 0.006*"beloved" + 0.005*"george"
+2020-12-03 09:59:07,819:INFO:topic #15 (0.013): 0.054*"article" + 0.017*"frontpage" + 0.015*"copies" + 0.015*"al" + 0.014*"gores" + 0.012*"platform" + 0.011*"misspelled" + 0.010*"editing" + 0.010*"gore" + 0.009*"yesterday"
+2020-12-03 09:59:07,820:INFO:topic #36 (0.032): 0.051*"gore" + 0.020*"bush" + 0.018*"president" + 0.014*"oil" + 0.013*"vice" + 0.012*"al" + 0.008*"campaign" + 0.006*"george" + 0.006*"gores" + 0.005*"prices"
+2020-12-03 09:59:07,820:INFO:topic #24 (0.032): 0.055*"gore" + 0.014*"gores" + 0.011*"president" + 0.010*"al" + 0.008*"clinton" + 0.007*"vice" + 0.007*"campaign" + 0.005*"time" + 0.005*"own" + 0.005*"people"
+2020-12-03 09:59:07,820:INFO:topic #3 (0.034): 0.049*"tax" + 0.026*"bush" + 0.022*"gore" + 0.022*"plan" + 0.016*"cut" + 0.016*"social" + 0.014*"security" + 0.014*"cuts" + 0.014*"bushs" + 0.011*"surplus"
+2020-12-03 09:59:07,824:INFO:topic diff=0.193903, rho=0.887014
+2020-12-03 09:59:07,885:DEBUG:End of model: 
+2020-12-03 09:59:07,887:INFO:saving LdaState object under .\LDA_data\40baseline2sav.state, separately None
+2020-12-03 09:59:07,887:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.state', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 09:59:07,916:INFO:saved .\LDA_data\40baseline2sav.state
+2020-12-03 09:59:07,917:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.id2word', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 09:59:07,923:INFO:saving LdaModel object under .\LDA_data\40baseline2sav, separately ['expElogbeta', 'sstats']
+2020-12-03 09:59:07,923:INFO:storing np array 'expElogbeta' to .\LDA_data\40baseline2sav.expElogbeta.npy
+2020-12-03 09:59:07,927:INFO:not storing attribute state
+2020-12-03 09:59:07,927:INFO:not storing attribute id2word
+2020-12-03 09:59:07,927:INFO:not storing attribute dispatcher
+2020-12-03 09:59:07,927:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 09:59:07,930:INFO:saved .\LDA_data\40baseline2sav
+2020-12-03 10:03:21,267:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2020-12-03 10:03:22,001:INFO:built Dictionary(12517 unique tokens: ['acted', 'addresses', 'al', 'am', 'ambitious']...) from 2673 documents (total 381037 corpus positions)
+2020-12-03 10:03:27,632:DEBUG:Start of model: 
+2020-12-03 10:03:27,634:INFO:using autotuned alpha, starting with [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+2020-12-03 10:03:27,637:INFO:using serial LDA version on this node
+2020-12-03 10:03:27,725:INFO:running online (multi-pass) LDA training, 40 topics, 7 passes over the supplied corpus of 2673 documents, updating model once every 2673 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2020-12-03 10:03:27,725:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2020-12-03 10:03:27,725:INFO:PROGRESS: pass 0, at document #2673/2673
+2020-12-03 10:03:27,725:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:03:40,598:DEBUG:1167/2673 documents converged within 100 iterations
+2020-12-03 10:03:40,631:INFO:optimized alpha [0.022557992, 0.023044117, 0.022879833, 0.025012905, 0.022701178, 0.024982922, 0.023261191, 0.024030212, 0.025391323, 0.023776479, 0.023241399, 0.02237175, 0.02459424, 0.022218825, 0.022848625, 0.025643721, 0.02564234, 0.023906294, 0.02357777, 0.022462562, 0.023473311, 0.026840227, 0.024346886, 0.024070762, 0.025591904, 0.022894736, 0.02478026, 0.023320267, 0.023835273, 0.02315239, 0.024044057, 0.022138389, 0.022973368, 0.024378842, 0.024263278, 0.023441684, 0.02598409, 0.023150178, 0.02575949, 0.02774439]
+2020-12-03 10:03:40,632:DEBUG:updating topics
+2020-12-03 10:03:40,714:INFO:topic #31 (0.022): 0.016*"gore" + 0.014*"clinton" + 0.009*"campaign" + 0.007*"president" + 0.007*"al" + 0.005*"vice" + 0.004*"time" + 0.004*"play" + 0.004*"gores" + 0.004*"campaigning"
+2020-12-03 10:03:40,715:INFO:topic #13 (0.022): 0.022*"gore" + 0.014*"al" + 0.007*"vice" + 0.007*"president" + 0.007*"lieberman" + 0.006*"gores" + 0.006*"bush" + 0.005*"tax" + 0.004*"am" + 0.003*"american"
+2020-12-03 10:03:40,716:INFO:topic #36 (0.026): 0.042*"bush" + 0.029*"gore" + 0.011*"campaign" + 0.008*"president" + 0.007*"george" + 0.006*"republican" + 0.006*"vice" + 0.005*"gores" + 0.005*"al" + 0.005*"bushs"
+2020-12-03 10:03:40,716:INFO:topic #21 (0.027): 0.034*"bush" + 0.029*"gore" + 0.010*"campaign" + 0.009*"president" + 0.008*"gores" + 0.008*"bushs" + 0.006*"george" + 0.006*"republican" + 0.005*"debate" + 0.005*"people"
+2020-12-03 10:03:40,716:INFO:topic #39 (0.028): 0.040*"bush" + 0.030*"gore" + 0.018*"president" + 0.009*"george" + 0.009*"campaign" + 0.008*"vice" + 0.008*"al" + 0.007*"bushs" + 0.006*"people" + 0.006*"clinton"
+2020-12-03 10:03:40,719:INFO:topic diff=18.742582, rho=1.000000
+2020-12-03 10:03:40,772:INFO:PROGRESS: pass 1, at document #2673/2673
+2020-12-03 10:03:40,772:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:03:49,695:DEBUG:2365/2673 documents converged within 100 iterations
+2020-12-03 10:03:49,733:INFO:optimized alpha [0.020510845, 0.020983204, 0.02068404, 0.023411699, 0.020445162, 0.023783937, 0.02112277, 0.022182949, 0.024144549, 0.021676755, 0.02105187, 0.020130513, 0.023676066, 0.020025894, 0.020758592, 0.024538739, 0.024344584, 0.021897934, 0.021773964, 0.020451363, 0.021348385, 0.026841927, 0.022484913, 0.02199796, 0.024473192, 0.020749403, 0.023208736, 0.021287577, 0.022162555, 0.021122877, 0.022547793, 0.019920882, 0.020748267, 0.02268172, 0.022139076, 0.021358911, 0.024703978, 0.021606937, 0.024527386, 0.028775344]
+2020-12-03 10:03:49,733:DEBUG:updating topics
+2020-12-03 10:03:49,824:INFO:topic #31 (0.020): 0.016*"clinton" + 0.014*"gore" + 0.007*"president" + 0.007*"mattel" + 0.007*"al" + 0.006*"time" + 0.006*"campaign" + 0.006*"play" + 0.005*"im" + 0.005*"vice"
+2020-12-03 10:03:49,825:INFO:topic #13 (0.020): 0.017*"gore" + 0.013*"gorey" + 0.013*"al" + 0.009*"lieberman" + 0.007*"goreys" + 0.006*"president" + 0.006*"vice" + 0.004*"front" + 0.004*"american" + 0.004*"test"
+2020-12-03 10:03:49,825:INFO:topic #36 (0.025): 0.044*"bush" + 0.024*"gore" + 0.013*"campaign" + 0.008*"president" + 0.008*"republican" + 0.007*"george" + 0.006*"vice" + 0.005*"bushs" + 0.005*"mccain" + 0.005*"party"
+2020-12-03 10:03:49,826:INFO:topic #21 (0.027): 0.035*"bush" + 0.029*"gore" + 0.011*"campaign" + 0.009*"gores" + 0.008*"president" + 0.008*"bushs" + 0.006*"plan" + 0.006*"debate" + 0.006*"republican" + 0.005*"vice"
+2020-12-03 10:03:49,826:INFO:topic #39 (0.029): 0.041*"bush" + 0.030*"gore" + 0.018*"president" + 0.009*"campaign" + 0.009*"george" + 0.008*"vice" + 0.007*"al" + 0.007*"clinton" + 0.007*"bushs" + 0.006*"people"
+2020-12-03 10:03:49,829:INFO:topic diff=7.289443, rho=0.946551
+2020-12-03 10:03:49,882:INFO:PROGRESS: pass 2, at document #2673/2673
+2020-12-03 10:03:49,883:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:03:58,091:DEBUG:2554/2673 documents converged within 100 iterations
+2020-12-03 10:03:58,145:INFO:optimized alpha [0.019023878, 0.019440982, 0.018938784, 0.022321912, 0.018649837, 0.022845155, 0.01937769, 0.020750524, 0.023346128, 0.019988814, 0.019339405, 0.01836941, 0.02398692, 0.018305372, 0.019132221, 0.023711238, 0.023633702, 0.020374939, 0.020730576, 0.018965043, 0.01987179, 0.026776792, 0.020973526, 0.020390606, 0.023898488, 0.019053522, 0.021825094, 0.019726994, 0.02132479, 0.019602122, 0.021735024, 0.018197333, 0.019027054, 0.021421364, 0.020448133, 0.01983154, 0.023724265, 0.021049106, 0.023484945, 0.0292071]
+2020-12-03 10:03:58,146:DEBUG:updating topics
+2020-12-03 10:03:58,271:INFO:topic #31 (0.018): 0.017*"clinton" + 0.014*"gore" + 0.008*"play" + 0.008*"time" + 0.007*"mattel" + 0.007*"president" + 0.007*"al" + 0.006*"im" + 0.006*"campaign" + 0.006*"vidal"
+2020-12-03 10:03:58,272:INFO:topic #13 (0.018): 0.020*"gorey" + 0.014*"gore" + 0.011*"al" + 0.010*"lieberman" + 0.009*"goreys" + 0.006*"musical" + 0.005*"president" + 0.005*"test" + 0.005*"music" + 0.005*"vice"
+2020-12-03 10:03:58,273:INFO:topic #12 (0.024): 0.038*"tax" + 0.031*"bush" + 0.018*"plan" + 0.017*"gore" + 0.016*"bushs" + 0.013*"social" + 0.013*"cut" + 0.012*"security" + 0.011*"cuts" + 0.009*"trillion"
+2020-12-03 10:03:58,273:INFO:topic #21 (0.027): 0.036*"bush" + 0.030*"gore" + 0.011*"campaign" + 0.010*"gores" + 0.008*"bushs" + 0.008*"president" + 0.006*"plan" + 0.006*"debate" + 0.006*"medicare" + 0.006*"republican"
+2020-12-03 10:03:58,274:INFO:topic #39 (0.029): 0.042*"bush" + 0.029*"gore" + 0.017*"president" + 0.010*"campaign" + 0.009*"george" + 0.008*"vice" + 0.007*"clinton" + 0.007*"al" + 0.007*"bushs" + 0.006*"people"
+2020-12-03 10:03:58,277:INFO:topic diff=3.881635, rho=0.933033
+2020-12-03 10:03:58,356:INFO:PROGRESS: pass 3, at document #2673/2673
+2020-12-03 10:03:58,356:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:04:06,682:DEBUG:2604/2673 documents converged within 100 iterations
+2020-12-03 10:04:06,738:INFO:optimized alpha [0.018076245, 0.018275926, 0.017531024, 0.021567268, 0.017198592, 0.02215496, 0.017927857, 0.019682107, 0.02297704, 0.018637588, 0.017969161, 0.01696296, 0.025152588, 0.016889835, 0.017848283, 0.023115277, 0.023300927, 0.01916555, 0.020383636, 0.01782009, 0.018898154, 0.026699873, 0.019754684, 0.019164972, 0.023650253, 0.017689306, 0.020736841, 0.018449998, 0.02100828, 0.018323757, 0.021487521, 0.016780604, 0.017664704, 0.020494105, 0.019126127, 0.018679973, 0.023103708, 0.02091478, 0.022582686, 0.029513422]
+2020-12-03 10:04:06,738:DEBUG:updating topics
+2020-12-03 10:04:06,856:INFO:topic #31 (0.017): 0.017*"clinton" + 0.014*"gore" + 0.009*"play" + 0.008*"time" + 0.007*"mattel" + 0.007*"vidal" + 0.007*"president" + 0.006*"al" + 0.006*"song" + 0.006*"im"
+2020-12-03 10:04:06,856:INFO:topic #13 (0.017): 0.022*"gorey" + 0.012*"gore" + 0.010*"al" + 0.009*"goreys" + 0.009*"lieberman" + 0.007*"musical" + 0.006*"music" + 0.006*"test" + 0.005*"edward" + 0.005*"president"
+2020-12-03 10:04:06,856:INFO:topic #12 (0.025): 0.041*"tax" + 0.030*"bush" + 0.020*"plan" + 0.018*"gore" + 0.016*"bushs" + 0.015*"social" + 0.014*"security" + 0.014*"cut" + 0.012*"cuts" + 0.009*"surplus"
+2020-12-03 10:04:06,857:INFO:topic #21 (0.027): 0.036*"bush" + 0.031*"gore" + 0.012*"campaign" + 0.011*"gores" + 0.009*"bushs" + 0.008*"president" + 0.006*"medicare" + 0.006*"debate" + 0.006*"plan" + 0.006*"republican"
+2020-12-03 10:04:06,857:INFO:topic #39 (0.030): 0.042*"bush" + 0.028*"gore" + 0.017*"president" + 0.010*"campaign" + 0.009*"george" + 0.008*"clinton" + 0.007*"vice" + 0.007*"people" + 0.006*"al" + 0.006*"bushs"
+2020-12-03 10:04:06,861:INFO:topic diff=1.483397, rho=0.922681
+2020-12-03 10:04:06,918:INFO:PROGRESS: pass 4, at document #2673/2673
+2020-12-03 10:04:06,919:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:04:14,898:DEBUG:2604/2673 documents converged within 100 iterations
+2020-12-03 10:04:14,984:INFO:optimized alpha [0.017557774, 0.01741952, 0.01637873, 0.021042256, 0.015983112, 0.021669656, 0.016718306, 0.018883273, 0.02288744, 0.017523456, 0.016833862, 0.015805626, 0.026787799, 0.015701601, 0.016766816, 0.022783307, 0.023259128, 0.018237073, 0.02068117, 0.016880294, 0.018298153, 0.026672717, 0.018744089, 0.018149432, 0.023595003, 0.01659646, 0.019904323, 0.017425794, 0.021003239, 0.01728213, 0.02164379, 0.015615293, 0.016585525, 0.019829769, 0.018096985, 0.017882418, 0.022669394, 0.021107906, 0.021811461, 0.029693434]
+2020-12-03 10:04:14,985:DEBUG:updating topics
+2020-12-03 10:04:15,121:INFO:topic #31 (0.016): 0.017*"clinton" + 0.014*"gore" + 0.010*"play" + 0.008*"vidal" + 0.008*"time" + 0.007*"mattel" + 0.007*"song" + 0.007*"im" + 0.006*"revival" + 0.006*"president"
+2020-12-03 10:04:15,121:INFO:topic #13 (0.016): 0.022*"gorey" + 0.011*"gore" + 0.009*"goreys" + 0.009*"al" + 0.008*"musical" + 0.007*"lieberman" + 0.006*"music" + 0.005*"edward" + 0.005*"test" + 0.005*"details"
+2020-12-03 10:04:15,121:INFO:topic #21 (0.027): 0.037*"bush" + 0.031*"gore" + 0.013*"campaign" + 0.011*"gores" + 0.009*"bushs" + 0.008*"president" + 0.006*"medicare" + 0.006*"debate" + 0.006*"republican" + 0.006*"plan"
+2020-12-03 10:04:15,122:INFO:topic #12 (0.027): 0.041*"tax" + 0.030*"bush" + 0.021*"plan" + 0.018*"gore" + 0.016*"social" + 0.015*"bushs" + 0.015*"security" + 0.014*"cut" + 0.012*"cuts" + 0.009*"surplus"
+2020-12-03 10:04:15,122:INFO:topic #39 (0.030): 0.043*"bush" + 0.028*"gore" + 0.017*"president" + 0.010*"campaign" + 0.009*"george" + 0.008*"clinton" + 0.007*"vice" + 0.007*"people" + 0.006*"bushs" + 0.006*"al"
+2020-12-03 10:04:15,125:INFO:topic diff=0.753018, rho=0.914308
+2020-12-03 10:04:15,175:INFO:PROGRESS: pass 5, at document #2673/2673
+2020-12-03 10:04:15,176:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:04:22,986:DEBUG:2620/2673 documents converged within 100 iterations
+2020-12-03 10:04:23,046:INFO:optimized alpha [0.017366907, 0.016823841, 0.015408484, 0.020703645, 0.014957546, 0.021331314, 0.015691029, 0.018247545, 0.022986153, 0.016583364, 0.015888566, 0.014831032, 0.02857191, 0.01469196, 0.015851943, 0.022622284, 0.023335643, 0.017562263, 0.021436013, 0.01616788, 0.017940797, 0.026657874, 0.017874792, 0.017294653, 0.023629759, 0.015743958, 0.019175075, 0.016582571, 0.021151973, 0.016418085, 0.02208116, 0.014618579, 0.015725235, 0.019288823, 0.017296573, 0.017287875, 0.022492124, 0.021556107, 0.021184474, 0.02982421]
+2020-12-03 10:04:23,046:DEBUG:updating topics
+2020-12-03 10:04:23,170:INFO:topic #31 (0.015): 0.018*"clinton" + 0.014*"gore" + 0.011*"play" + 0.008*"vidal" + 0.008*"time" + 0.007*"mattel" + 0.007*"song" + 0.007*"giuliani" + 0.007*"im" + 0.007*"theater"
+2020-12-03 10:04:23,171:INFO:topic #13 (0.015): 0.022*"gorey" + 0.010*"gore" + 0.010*"goreys" + 0.009*"al" + 0.009*"musical" + 0.006*"music" + 0.005*"edward" + 0.005*"details" + 0.005*"lieberman" + 0.005*"course"
+2020-12-03 10:04:23,171:INFO:topic #21 (0.027): 0.037*"bush" + 0.032*"gore" + 0.013*"campaign" + 0.011*"gores" + 0.009*"bushs" + 0.008*"president" + 0.006*"republican" + 0.006*"people" + 0.006*"vice" + 0.006*"debate"
+2020-12-03 10:04:23,171:INFO:topic #12 (0.029): 0.042*"tax" + 0.030*"bush" + 0.021*"plan" + 0.019*"gore" + 0.016*"social" + 0.015*"security" + 0.015*"bushs" + 0.014*"cut" + 0.012*"cuts" + 0.010*"surplus"
+2020-12-03 10:04:23,171:INFO:topic #39 (0.030): 0.043*"bush" + 0.027*"gore" + 0.017*"president" + 0.010*"campaign" + 0.008*"george" + 0.008*"clinton" + 0.007*"people" + 0.007*"vice" + 0.006*"bushs" + 0.006*"al"
+2020-12-03 10:04:23,175:INFO:topic diff=0.497042, rho=0.907288
+2020-12-03 10:04:23,225:INFO:PROGRESS: pass 6, at document #2673/2673
+2020-12-03 10:04:23,225:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:04:30,782:DEBUG:2609/2673 documents converged within 100 iterations
+2020-12-03 10:04:30,835:INFO:optimized alpha [0.017423216, 0.016446851, 0.014573205, 0.020515315, 0.0140729295, 0.021209823, 0.014825846, 0.017715735, 0.023161625, 0.015772605, 0.015084699, 0.014002486, 0.030553214, 0.013830048, 0.015072373, 0.022597175, 0.023561807, 0.017056653, 0.022632858, 0.01562303, 0.017748646, 0.02671869, 0.017116064, 0.01654821, 0.023759602, 0.015141851, 0.01856063, 0.015873976, 0.0214263, 0.015686609, 0.022701316, 0.013771957, 0.014974473, 0.018859735, 0.016662022, 0.016812978, 0.022429511, 0.02211299, 0.020651395, 0.029963916]
+2020-12-03 10:04:30,835:DEBUG:updating topics
+2020-12-03 10:04:30,967:INFO:topic #31 (0.014): 0.017*"clinton" + 0.014*"gore" + 0.011*"play" + 0.008*"vidal" + 0.008*"time" + 0.008*"theater" + 0.008*"mattel" + 0.008*"song" + 0.007*"giuliani" + 0.007*"cents"
+2020-12-03 10:04:30,967:INFO:topic #13 (0.014): 0.023*"gorey" + 0.010*"goreys" + 0.010*"gore" + 0.009*"musical" + 0.009*"al" + 0.006*"music" + 0.006*"edward" + 0.005*"details" + 0.005*"returns" + 0.005*"course"
+2020-12-03 10:04:30,968:INFO:topic #21 (0.027): 0.038*"bush" + 0.032*"gore" + 0.014*"campaign" + 0.012*"gores" + 0.009*"bushs" + 0.007*"president" + 0.006*"republican" + 0.006*"people" + 0.006*"vice" + 0.005*"debate"
+2020-12-03 10:04:30,968:INFO:topic #39 (0.030): 0.043*"bush" + 0.027*"gore" + 0.017*"president" + 0.009*"campaign" + 0.008*"george" + 0.008*"clinton" + 0.007*"people" + 0.006*"vice" + 0.006*"bushs" + 0.006*"al"
+2020-12-03 10:04:30,969:INFO:topic #12 (0.031): 0.042*"tax" + 0.029*"bush" + 0.021*"plan" + 0.019*"gore" + 0.016*"social" + 0.015*"security" + 0.015*"bushs" + 0.014*"cut" + 0.012*"cuts" + 0.010*"spending"
+2020-12-03 10:04:30,975:INFO:topic diff=0.379321, rho=0.901250
+2020-12-03 10:04:31,052:DEBUG:End of model: 
+2020-12-03 10:04:31,055:INFO:saving LdaState object under .\LDA_data\40baseline2sav.state, separately None
+2020-12-03 10:04:31,055:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.state', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:04:31,082:INFO:saved .\LDA_data\40baseline2sav.state
+2020-12-03 10:04:31,082:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.id2word', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:04:31,088:INFO:saving LdaModel object under .\LDA_data\40baseline2sav, separately ['expElogbeta', 'sstats']
+2020-12-03 10:04:31,088:INFO:storing np array 'expElogbeta' to .\LDA_data\40baseline2sav.expElogbeta.npy
+2020-12-03 10:04:31,091:INFO:not storing attribute state
+2020-12-03 10:04:31,091:INFO:not storing attribute id2word
+2020-12-03 10:04:31,091:INFO:not storing attribute dispatcher
+2020-12-03 10:04:31,091:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:04:31,093:INFO:saved .\LDA_data\40baseline2sav
+2020-12-03 10:05:50,756:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2020-12-03 10:05:51,546:INFO:built Dictionary(12517 unique tokens: ['acted', 'addresses', 'al', 'am', 'ambitious']...) from 2673 documents (total 381037 corpus positions)
+2020-12-03 10:05:57,678:DEBUG:Start of model: 
+2020-12-03 10:05:57,680:INFO:using autotuned alpha, starting with [0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025]
+2020-12-03 10:05:57,683:INFO:using serial LDA version on this node
+2020-12-03 10:05:57,779:INFO:running online (multi-pass) LDA training, 40 topics, 7 passes over the supplied corpus of 2673 documents, updating model once every 2673 documents, evaluating perplexity every 2673 documents, iterating 100x with a convergence threshold of 0.001000
+2020-12-03 10:05:57,779:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2020-12-03 10:05:57,872:DEBUG:bound: at document #0
+2020-12-03 10:06:14,177:INFO:-13.033 per-word bound, 8381.0 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:06:14,177:INFO:PROGRESS: pass 0, at document #2673/2673
+2020-12-03 10:06:14,177:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:06:27,696:DEBUG:1152/2673 documents converged within 100 iterations
+2020-12-03 10:06:27,732:INFO:optimized alpha [0.025026437, 0.022604875, 0.02391626, 0.022307897, 0.02317228, 0.02646127, 0.023066327, 0.023562346, 0.022155106, 0.022319093, 0.023373315, 0.026164595, 0.023482537, 0.026502626, 0.027067622, 0.024287878, 0.025665227, 0.023825448, 0.02280777, 0.024666555, 0.022348529, 0.02547566, 0.022260917, 0.024225777, 0.024092302, 0.023351833, 0.02739782, 0.026278216, 0.023099314, 0.023729708, 0.022562422, 0.02419899, 0.023780622, 0.02347583, 0.025413917, 0.02245711, 0.022680936, 0.02306425, 0.024822684, 0.022547634]
+2020-12-03 10:06:27,732:DEBUG:updating topics
+2020-12-03 10:06:27,823:INFO:topic #8 (0.022): 0.011*"bush" + 0.008*"president" + 0.006*"texas" + 0.005*"george" + 0.005*"kenny" + 0.005*"music" + 0.005*"vice" + 0.005*"halliburton" + 0.004*"nuclear" + 0.004*"gore"
+2020-12-03 10:06:27,824:INFO:topic #22 (0.022): 0.016*"gore" + 0.013*"bush" + 0.006*"president" + 0.006*"campaign" + 0.006*"al" + 0.005*"george" + 0.005*"gores" + 0.005*"vice" + 0.005*"republican" + 0.004*"commercial"
+2020-12-03 10:06:27,824:INFO:topic #13 (0.027): 0.049*"bush" + 0.020*"gore" + 0.011*"president" + 0.010*"campaign" + 0.008*"george" + 0.008*"bushs" + 0.007*"governor" + 0.007*"republican" + 0.006*"party" + 0.006*"texas"
+2020-12-03 10:06:27,824:INFO:topic #14 (0.027): 0.027*"bush" + 0.026*"gore" + 0.013*"campaign" + 0.012*"president" + 0.010*"george" + 0.009*"vice" + 0.008*"gores" + 0.008*"bushs" + 0.008*"al" + 0.006*"republican"
+2020-12-03 10:06:27,824:INFO:topic #26 (0.027): 0.038*"bush" + 0.028*"gore" + 0.009*"bushs" + 0.009*"president" + 0.008*"tax" + 0.008*"gores" + 0.007*"george" + 0.006*"campaign" + 0.005*"al" + 0.005*"clinton"
+2020-12-03 10:06:27,828:INFO:topic diff=19.480066, rho=1.000000
+2020-12-03 10:06:28,014:DEBUG:bound: at document #0
+2020-12-03 10:06:40,350:INFO:-8.822 per-word bound, 452.5 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:06:40,350:INFO:PROGRESS: pass 1, at document #2673/2673
+2020-12-03 10:06:40,350:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:06:54,214:DEBUG:2339/2673 documents converged within 100 iterations
+2020-12-03 10:06:54,282:INFO:optimized alpha [0.023436693, 0.020332921, 0.021772046, 0.02012208, 0.020996274, 0.025494907, 0.021050733, 0.021514818, 0.019965878, 0.020157075, 0.02115782, 0.025674883, 0.021381184, 0.026337136, 0.02680794, 0.022805242, 0.024687655, 0.021789575, 0.020903295, 0.022812223, 0.020214204, 0.024209961, 0.020025454, 0.022021158, 0.021865336, 0.021182869, 0.028190846, 0.02549625, 0.020874757, 0.021907581, 0.020418225, 0.022189632, 0.02187121, 0.021340556, 0.024769641, 0.020199697, 0.020456046, 0.021104245, 0.02320135, 0.020450989]
+2020-12-03 10:06:54,283:DEBUG:updating topics
+2020-12-03 10:06:54,424:INFO:topic #8 (0.020): 0.010*"bush" + 0.008*"president" + 0.007*"nuclear" + 0.007*"music" + 0.006*"texas" + 0.006*"kenny" + 0.005*"iran" + 0.005*"clinton" + 0.005*"george" + 0.005*"fox"
+2020-12-03 10:06:54,425:INFO:topic #22 (0.020): 0.013*"bush" + 0.008*"gore" + 0.007*"commercial" + 0.006*"george" + 0.005*"health" + 0.005*"industry" + 0.005*"bradley" + 0.005*"san" + 0.004*"web" + 0.004*"al"
+2020-12-03 10:06:54,426:INFO:topic #13 (0.026): 0.050*"bush" + 0.014*"gore" + 0.010*"president" + 0.009*"campaign" + 0.009*"bushs" + 0.008*"george" + 0.008*"governor" + 0.008*"texas" + 0.008*"republican" + 0.007*"party"
+2020-12-03 10:06:54,427:INFO:topic #14 (0.027): 0.028*"gore" + 0.026*"bush" + 0.014*"campaign" + 0.013*"president" + 0.009*"vice" + 0.009*"george" + 0.009*"gores" + 0.008*"bushs" + 0.008*"al" + 0.007*"republican"
+2020-12-03 10:06:54,427:INFO:topic #26 (0.028): 0.037*"bush" + 0.027*"gore" + 0.011*"tax" + 0.010*"bushs" + 0.009*"president" + 0.008*"gores" + 0.006*"plan" + 0.006*"campaign" + 0.005*"george" + 0.005*"people"
+2020-12-03 10:06:54,431:INFO:topic diff=7.141161, rho=0.946551
+2020-12-03 10:06:54,775:DEBUG:bound: at document #0
+2020-12-03 10:07:14,105:INFO:-8.358 per-word bound, 328.1 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:07:14,106:INFO:PROGRESS: pass 2, at document #2673/2673
+2020-12-03 10:07:14,106:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:07:26,517:DEBUG:2557/2673 documents converged within 100 iterations
+2020-12-03 10:07:26,585:INFO:optimized alpha [0.022308595, 0.01854191, 0.020074632, 0.018442111, 0.019247424, 0.024730558, 0.019684412, 0.020006778, 0.018241875, 0.018443754, 0.019410368, 0.025721015, 0.019935306, 0.026186818, 0.026450522, 0.022226848, 0.024028052, 0.020201515, 0.01957202, 0.021340806, 0.018556554, 0.02307643, 0.018275488, 0.020312482, 0.020108495, 0.019515896, 0.029347997, 0.024817199, 0.019153213, 0.020530693, 0.018716708, 0.020711495, 0.020356175, 0.019824542, 0.0248394, 0.018389517, 0.018712562, 0.019916581, 0.021823714, 0.0188116]
+2020-12-03 10:07:26,585:DEBUG:updating topics
+2020-12-03 10:07:26,731:INFO:topic #8 (0.018): 0.009*"bush" + 0.009*"nuclear" + 0.008*"president" + 0.007*"fox" + 0.007*"iran" + 0.007*"music" + 0.006*"gorelick" + 0.006*"texas" + 0.006*"kenny" + 0.006*"clinton"
+2020-12-03 10:07:26,732:INFO:topic #22 (0.018): 0.013*"bush" + 0.009*"commercial" + 0.006*"san" + 0.006*"george" + 0.006*"francisco" + 0.005*"industry" + 0.005*"gore" + 0.005*"vidal" + 0.005*"web" + 0.005*"health"
+2020-12-03 10:07:26,732:INFO:topic #13 (0.026): 0.052*"bush" + 0.010*"gore" + 0.010*"bushs" + 0.010*"president" + 0.009*"governor" + 0.009*"george" + 0.008*"campaign" + 0.008*"republican" + 0.008*"texas" + 0.008*"cheney"
+2020-12-03 10:07:26,733:INFO:topic #14 (0.026): 0.029*"gore" + 0.025*"bush" + 0.015*"campaign" + 0.014*"president" + 0.009*"vice" + 0.009*"george" + 0.009*"gores" + 0.008*"bushs" + 0.008*"al" + 0.007*"republican"
+2020-12-03 10:07:26,733:INFO:topic #26 (0.029): 0.037*"bush" + 0.027*"gore" + 0.014*"tax" + 0.011*"bushs" + 0.008*"gores" + 0.008*"president" + 0.008*"plan" + 0.006*"campaign" + 0.005*"people" + 0.005*"cut"
+2020-12-03 10:07:26,737:INFO:topic diff=3.668072, rho=0.933033
+2020-12-03 10:07:26,911:DEBUG:bound: at document #0
+2020-12-03 10:07:40,443:INFO:-8.263 per-word bound, 307.1 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:07:40,443:INFO:PROGRESS: pass 3, at document #2673/2673
+2020-12-03 10:07:40,443:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:07:50,140:DEBUG:2587/2673 documents converged within 100 iterations
+2020-12-03 10:07:50,202:INFO:optimized alpha [0.021494012, 0.017100524, 0.018737147, 0.017258566, 0.01782206, 0.024247559, 0.018918095, 0.018908031, 0.016869016, 0.017058726, 0.017979035, 0.026062183, 0.019178642, 0.02630868, 0.02623745, 0.02215084, 0.023591291, 0.018901972, 0.0186263, 0.020122012, 0.017232375, 0.022219753, 0.016877057, 0.018953003, 0.01869113, 0.0181791, 0.030824991, 0.024366887, 0.017741615, 0.0194743, 0.017333519, 0.019590704, 0.01911667, 0.018668573, 0.02553197, 0.016913798, 0.017327279, 0.019289337, 0.020684985, 0.01750133]
+2020-12-03 10:07:50,203:DEBUG:updating topics
+2020-12-03 10:07:50,334:INFO:topic #8 (0.017): 0.011*"fox" + 0.009*"bush" + 0.009*"nuclear" + 0.008*"trade" + 0.008*"president" + 0.007*"gorelick" + 0.007*"north" + 0.007*"clinton" + 0.006*"iran" + 0.006*"texas"
+2020-12-03 10:07:50,335:INFO:topic #22 (0.017): 0.013*"bush" + 0.009*"commercial" + 0.009*"san" + 0.008*"francisco" + 0.008*"vidal" + 0.006*"industry" + 0.006*"george" + 0.005*"terminal" + 0.005*"web" + 0.005*"avenue"
+2020-12-03 10:07:50,336:INFO:topic #14 (0.026): 0.030*"gore" + 0.025*"bush" + 0.016*"campaign" + 0.014*"president" + 0.009*"vice" + 0.009*"george" + 0.009*"gores" + 0.008*"al" + 0.008*"bushs" + 0.008*"republican"
+2020-12-03 10:07:50,336:INFO:topic #13 (0.026): 0.054*"bush" + 0.011*"bushs" + 0.009*"governor" + 0.009*"president" + 0.009*"cheney" + 0.009*"george" + 0.009*"republican" + 0.008*"texas" + 0.008*"campaign" + 0.007*"party"
+2020-12-03 10:07:50,337:INFO:topic #26 (0.031): 0.037*"bush" + 0.027*"gore" + 0.016*"tax" + 0.011*"bushs" + 0.009*"gores" + 0.008*"plan" + 0.008*"president" + 0.006*"cut" + 0.006*"social" + 0.006*"security"
+2020-12-03 10:07:50,340:INFO:topic diff=1.346844, rho=0.922681
+2020-12-03 10:07:50,510:DEBUG:bound: at document #0
+2020-12-03 10:08:03,630:INFO:-8.210 per-word bound, 296.2 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:08:03,630:INFO:PROGRESS: pass 4, at document #2673/2673
+2020-12-03 10:08:03,631:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:08:12,027:DEBUG:2609/2673 documents converged within 100 iterations
+2020-12-03 10:08:12,092:INFO:optimized alpha [0.020956537, 0.01591615, 0.017653108, 0.016484352, 0.016624548, 0.023975056, 0.018428233, 0.018127734, 0.01577248, 0.015923088, 0.016801983, 0.02657709, 0.018907178, 0.02654421, 0.02608986, 0.022433192, 0.02330503, 0.017819937, 0.018072424, 0.01910321, 0.016107697, 0.02153995, 0.015725227, 0.01785911, 0.017524984, 0.01709448, 0.032613777, 0.024079254, 0.016573435, 0.01862537, 0.016169121, 0.018686842, 0.01808457, 0.017838739, 0.026571631, 0.015673513, 0.01623558, 0.018986024, 0.01980458, 0.016446918]
+2020-12-03 10:08:12,092:DEBUG:updating topics
+2020-12-03 10:08:12,218:INFO:topic #35 (0.016): 0.018*"gore" + 0.017*"tax" + 0.012*"bush" + 0.010*"president" + 0.008*"al" + 0.007*"gores" + 0.007*"vice" + 0.006*"campaign" + 0.005*"percent" + 0.005*"clinton"
+2020-12-03 10:08:12,218:INFO:topic #22 (0.016): 0.014*"bush" + 0.012*"san" + 0.009*"francisco" + 0.009*"vidal" + 0.009*"commercial" + 0.006*"industry" + 0.006*"ad" + 0.006*"george" + 0.006*"web" + 0.006*"avenue"
+2020-12-03 10:08:12,219:INFO:topic #34 (0.027): 0.046*"gore" + 0.019*"bush" + 0.019*"nader" + 0.013*"president" + 0.012*"al" + 0.011*"democratic" + 0.011*"vice" + 0.010*"campaign" + 0.009*"party" + 0.009*"vote"
+2020-12-03 10:08:12,219:INFO:topic #13 (0.027): 0.055*"bush" + 0.011*"bushs" + 0.010*"cheney" + 0.010*"governor" + 0.009*"george" + 0.009*"republican" + 0.009*"president" + 0.008*"texas" + 0.007*"party" + 0.007*"campaign"
+2020-12-03 10:08:12,219:INFO:topic #26 (0.033): 0.038*"bush" + 0.026*"gore" + 0.018*"tax" + 0.012*"bushs" + 0.009*"gores" + 0.009*"plan" + 0.008*"president" + 0.007*"cut" + 0.007*"social" + 0.007*"security"
+2020-12-03 10:08:12,223:INFO:topic diff=0.677698, rho=0.914308
+2020-12-03 10:08:12,376:DEBUG:bound: at document #0
+2020-12-03 10:08:23,542:INFO:-8.174 per-word bound, 288.8 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:08:23,543:INFO:PROGRESS: pass 5, at document #2673/2673
+2020-12-03 10:08:23,543:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:08:32,069:DEBUG:2616/2673 documents converged within 100 iterations
+2020-12-03 10:08:32,125:INFO:optimized alpha [0.020604676, 0.014941859, 0.016724657, 0.016017511, 0.015600872, 0.023878679, 0.018159287, 0.017645584, 0.01485697, 0.014965471, 0.015817389, 0.027381321, 0.01906869, 0.026859257, 0.026036961, 0.022935832, 0.023281565, 0.016898474, 0.017868953, 0.018245503, 0.015163908, 0.02101021, 0.0147655755, 0.016929168, 0.016543904, 0.016242888, 0.034552768, 0.023947896, 0.015601793, 0.017913003, 0.015177402, 0.01796985, 0.017203331, 0.017205324, 0.027872, 0.014628492, 0.015364161, 0.01889067, 0.019054784, 0.015570577]
+2020-12-03 10:08:32,126:DEBUG:updating topics
+2020-12-03 10:08:32,249:INFO:topic #35 (0.015): 0.018*"gore" + 0.018*"tax" + 0.012*"bush" + 0.009*"president" + 0.008*"al" + 0.008*"gores" + 0.006*"vice" + 0.006*"campaign" + 0.005*"percent" + 0.005*"cost"
+2020-12-03 10:08:32,250:INFO:topic #22 (0.015): 0.014*"san" + 0.014*"bush" + 0.011*"francisco" + 0.010*"vidal" + 0.008*"commercial" + 0.007*"ad" + 0.007*"industry" + 0.007*"web" + 0.006*"george" + 0.006*"avenue"
+2020-12-03 10:08:32,250:INFO:topic #11 (0.027): 0.052*"gore" + 0.019*"bush" + 0.015*"clinton" + 0.013*"president" + 0.012*"gores" + 0.010*"campaign" + 0.010*"voters" + 0.007*"vice" + 0.007*"al" + 0.006*"democratic"
+2020-12-03 10:08:32,251:INFO:topic #34 (0.028): 0.047*"gore" + 0.019*"bush" + 0.018*"nader" + 0.013*"president" + 0.012*"al" + 0.012*"democratic" + 0.011*"vice" + 0.011*"campaign" + 0.009*"party" + 0.009*"vote"
+2020-12-03 10:08:32,251:INFO:topic #26 (0.035): 0.038*"bush" + 0.026*"gore" + 0.019*"tax" + 0.012*"bushs" + 0.010*"plan" + 0.009*"gores" + 0.008*"president" + 0.007*"cut" + 0.007*"social" + 0.007*"security"
+2020-12-03 10:08:32,255:INFO:topic diff=0.453050, rho=0.907288
+2020-12-03 10:08:32,410:DEBUG:bound: at document #0
+2020-12-03 10:08:43,306:INFO:-8.146 per-word bound, 283.3 perplexity estimate based on a held-out corpus of 2673 documents with 381037 words
+2020-12-03 10:08:43,307:INFO:PROGRESS: pass 6, at document #2673/2673
+2020-12-03 10:08:43,307:DEBUG:performing inference on a chunk of 2673 documents
+2020-12-03 10:08:50,928:DEBUG:2628/2673 documents converged within 100 iterations
+2020-12-03 10:08:50,995:INFO:optimized alpha [0.02041325, 0.014108269, 0.015952282, 0.015733706, 0.014727413, 0.023857383, 0.01796759, 0.017434025, 0.014101093, 0.014170822, 0.014981249, 0.028308468, 0.01957028, 0.027187131, 0.026025746, 0.023544978, 0.023369813, 0.016108194, 0.018024413, 0.017501757, 0.0143546, 0.020654822, 0.013958682, 0.016155962, 0.015722591, 0.015532101, 0.036567353, 0.02390294, 0.014775794, 0.017289964, 0.014319249, 0.017418314, 0.016446028, 0.01669122, 0.029327227, 0.0137379905, 0.014646053, 0.018928317, 0.018454896, 0.014816303]
+2020-12-03 10:08:50,996:DEBUG:updating topics
+2020-12-03 10:08:51,122:INFO:topic #35 (0.014): 0.018*"gore" + 0.017*"tax" + 0.011*"bush" + 0.009*"president" + 0.008*"al" + 0.008*"gores" + 0.006*"vice" + 0.006*"campaign" + 0.005*"percent" + 0.005*"cost"
+2020-12-03 10:08:51,123:INFO:topic #22 (0.014): 0.015*"san" + 0.014*"bush" + 0.012*"francisco" + 0.010*"vidal" + 0.008*"ad" + 0.008*"commercial" + 0.008*"web" + 0.007*"industry" + 0.006*"george" + 0.006*"terminal"
+2020-12-03 10:08:51,123:INFO:topic #11 (0.028): 0.053*"gore" + 0.018*"bush" + 0.016*"clinton" + 0.013*"president" + 0.012*"gores" + 0.010*"campaign" + 0.009*"voters" + 0.008*"vice" + 0.007*"al" + 0.006*"democratic"
+2020-12-03 10:08:51,124:INFO:topic #34 (0.029): 0.047*"gore" + 0.019*"bush" + 0.018*"nader" + 0.013*"president" + 0.012*"democratic" + 0.012*"al" + 0.011*"vice" + 0.011*"campaign" + 0.010*"party" + 0.009*"vote"
+2020-12-03 10:08:51,124:INFO:topic #26 (0.037): 0.038*"bush" + 0.026*"gore" + 0.021*"tax" + 0.012*"bushs" + 0.010*"plan" + 0.009*"gores" + 0.008*"cut" + 0.008*"president" + 0.008*"social" + 0.008*"security"
+2020-12-03 10:08:51,127:INFO:topic diff=0.348254, rho=0.901250
+2020-12-03 10:08:51,195:DEBUG:End of model: 
+2020-12-03 10:08:51,197:INFO:saving LdaState object under .\LDA_data\40baseline2sav.state, separately None
+2020-12-03 10:08:51,197:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.state', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:08:51,224:INFO:saved .\LDA_data\40baseline2sav.state
+2020-12-03 10:08:51,224:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav.id2word', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:08:51,229:INFO:saving LdaModel object under .\LDA_data\40baseline2sav, separately ['expElogbeta', 'sstats']
+2020-12-03 10:08:51,229:INFO:storing np array 'expElogbeta' to .\LDA_data\40baseline2sav.expElogbeta.npy
+2020-12-03 10:08:51,232:INFO:not storing attribute state
+2020-12-03 10:08:51,232:INFO:not storing attribute id2word
+2020-12-03 10:08:51,232:INFO:not storing attribute dispatcher
+2020-12-03 10:08:51,232:DEBUG:{'uri': '.\\LDA_data\\40baseline2sav', 'mode': 'wb', 'buffering': -1, 'encoding': None, 'errors': None, 'newline': None, 'closefd': True, 'opener': None, 'ignore_ext': False, 'transport_params': None}
+2020-12-03 10:08:51,234:INFO:saved .\LDA_data\40baseline2sav
