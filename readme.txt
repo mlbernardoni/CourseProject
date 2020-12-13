@@ -77,6 +77,8 @@ Gensim Python LDA:                       https://radimrehurek.com/gensim/models/
 SciPy's pearson r:                       https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
 statsmodels granger causality tests:     https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.grangercausalitytests.html 
 pyLDAvis:				 https://pyldavis.readthedocs.io/en/latest/index.html   
+glob:					 https://docs.python.org/3/library/glob.html 
+Matplotlib:				 https://matplotlib.org/ 
 
 Library tested but not used:
 pypi.orgs PLSA:                         https://pypi.org/project/plsa/
