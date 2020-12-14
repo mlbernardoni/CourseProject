@@ -3,7 +3,7 @@ https://illinois.zoom.us/rec/play/p1k2d8OXy9zlMU52qAKeYekW6uxafweLBO2aqz6R_DGSbH
 
 Setup:
 Windows: Open an anaconda prompt navigate to the project's directory
-         type:  conda env create -f ITMTF.yml
+         type:  conda env create -f Gensim.yml
               the created environment will be called "Gensim"
               when you open the notebook, you will have to change kernels to Gensim
               detailed instructions are in the project write-up's appendix
